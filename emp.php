@@ -1,0 +1,1220 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>employeer</title>
+	<link rel="stylesheet" href="assets/css/libs/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/libs/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+	<link rel="stylesheet" href="assets/css/libs/animate.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="assets/css/styless.css">
+	
+
+</head>
+<body>
+	<? include 'header.php';?>
+	<div class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+					  <h4>специалисты</h4>
+					  <h2>Камал Рашид Искандерович</h2>
+					  
+						<div class="row">
+							<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+								<img src="assets/img/img-main/kamalov.jpg" class="slider-pic" alt="">
+							</div>
+							<div class="col-lg-1 col-md-1 col-sm-1"></div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+								<div class="about">
+									<span class="red prof">Директор</span><br><br>
+									<p>Осуществляет руководство деятельностью организации. <br><br> 
+									Образование высшее юридическое, имеет научные статьи и публикации. Стаж работы на руководящих должностях экспертных организаций с 2005 года.</p> <br>
+									<p>Тел. +7(843) 204-09-00, +7(987) 296-63-27</p>
+									E-mail: <a class="email" href=mailto:info@sudexpertiza.org>info@sudexpertiza.org</a>
+								</div>
+							</div>
+
+						</div> <!-- row -->
+						 <h2>Мухаметшина Суфия Анваровна</h2>
+						
+						<div class="row">
+							<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+								<img src="assets/img/img-main/kamalov3.jpg" class="slider-pic" alt="">
+							</div>
+							<div class="col-lg-1 col-md-1 col-sm-1"></div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+									<div class="about">
+										<span class="red prof">Главный бухгалтер</span><br><br>
+										<p>Тел. +7(843) 204-09-00</p> 	
+										E-mail: <a <a class="email" href=mailto:info@sudexpertiza.org>info@sudexpertiza.org</a>
+									</div>
+							</div>
+						</div> <!-- emp_box -->
+						 <h2>Землянский Петр Владимирович</h2>
+						
+						<div class="row">
+							<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+								<img src="assets/img/img-main/kamalov4.jpg" class="slider-pic" alt="">
+							</div>
+							<div class="col-lg-1 col-md-1 col-sm-1"></div>	
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+								<div class="about">	
+										<span class="red prof">Главный инженер</span><br>
+										<br>
+										<p>Является заместителем директора и несет ответственность за результаты и эффективность производственной деятельности предприятия. Руководит процессом технических обследований зданий и сооружений, осуществления процедуры судебных эксперти</p><br>
+										
+										<p>Тел. +7(843) 204-09-00</p>
+										E-mail: <a class="email" href=mailto:info@sudexpertiza.org>info@sudexpertiza.org</a><br>
+										<br>
+								</div>
+							</div>
+						</div>
+
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">	
+									<p>Высшее образование и стаж работы по экспертной специальности с 2005 года. Диплом КГАСУ инженера ВСГ №2642692 от 24.06.2009г по специальности «Промышленное и гражданское строительство». Диплом КГТУ инженера-механика УВ №452910 от 27.02.1996 по специальности «Вакуумная и компрессорная техника физических установок». </p><br><br>
+									<span class="expert">Экспертная специальность:</span> <br><br>
+									<ul class="lists">
+										<li class="list_two">16.5 Федерального агентства по техническому регулированию и метрологии Российской Федерации (Некоммерческое партнерство «Палата судебных экспертов») «Исследование строительных объектов, их отдельных фрагментов, инженерных систем, оборудования и коммуникаций с целью установления объема, качества и стоимости выполненных работ, использованных материалов и изделий» (Система добровольной сертификации методического обеспечения судебной экспертизы – РОСC RU.И597.04НЯ00 от 16.10.2009г).</li>
+										<li class="list_two">Эксперт по направлению деятельности 2.1.3 Конструктивные решения, аттестованный на право подготовки заключений экспертизы проектной документации и (или) экспертизы результатов инженерных изысканий (номер аттестата ГС-Э-20-2-0765 от 18.06.2013г) Министерство регионального развития РФ, Федеральное агентство по строительству и жилищно-коммунальному хозяйству (Госстрой). </li>
+										<li class="list_two">Эксперт по направлению деятельности 2.1. Объемно-планировочные, архитектурные и конструктивные решения, планировочная организация земельного участка, организация строительства, аттестованный на право подготовки заключений экспертизы проектной документации и (или) экспертизы результатов инженерных изысканий (номер аттестата МС-Э-25-2-5701 от 24.04.2015г). Министерство строительства и жилищно-коммунального хозяйства Российской Федерации (Минстрой России).</li>
+										<li class="list_two">Эксперт по направлению деятельности 1.2. Инженерно-геологические изыскания, аттестованный на право подготовки заключений экспертизы проектной документации и (или) экспертизы результатов инженерных изысканий (номер аттестата МС-Э-84-1-4578 от 05.11.2014г) Министерство регионального развития РФ, Федеральное агентство по строительству и жилищно-коммунальному хозяйству (Госстрой).</li><br><br>
+									</ul>
+								</div>
+							</div>
+							<div class="row hidden-xs">
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+
+
+								<div class="col-lg-4 col-md-4 col-sm-4">
+								<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+									<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+										<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+									</a>
+								
+
+									<div class="fancies">
+										<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+									</div>
+									<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+									<div class="clearfix"></div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+							</div>
+							
+							<div class="row hidden-xs">
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="row hidden-xs">
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+								<div class="col-lg-8 col-md-8 col-sm-8"></div>
+							</div>
+							<div class="row hidden-lg hidden-md hidden-sm">
+							<div class="col-xs-12">
+								<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+							<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+								<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+							</a>
+							
+								<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+							<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+							</div>
+							
+						</div>
+						<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+						</div>
+						<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+						</div>
+						<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+						</div>
+						<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+						</div>
+						<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+					<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+						
+
+
+						
+						<h2>Галиев Альмир Фаридович</h2>
+						
+						<div class="row">
+							<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+								<img src="assets/img/img-main/kamalov5.jpg" class="slider-pic" alt="">
+							</div>
+							<div class="col-lg-1 col-md-1 col-sm-1"></div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+									<div class="about">
+										<span class="red prof">Руководитель экспертной группы</span><br><br>
+										<p>Осуществляет процесс научно-технической и производственной деятельности экспертной группы; формирует и обосновывает цели и задачи работ. Участвует в составлении необходимых технико-экономических обоснований. </p>
+										<p>Тел. +7(843) 204-09-00</p> 	
+										E-mail: <a <a class="email" href=mailto:info@sudexpertiza.org>info@sudexpertiza.org</a><br><br>
+									</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<p>Образование высшее, КГАСУ (2014г) по специальности «Промышленное и гражданское строительство», диплом (101624 0457504), регистрационный №13474 от 04.07.2014г.; КГАСУ (2013г) - диплом о профессиональной переподготовке на ведение профессиональной деятельности в сфере экспертизы проектно-строительной документации, ПП-I №741985 от 31.05.2013г.; ФОУ ВПО «Казанский государственный университет им. В.И.Ленина», экономический факультет (2004 г.) - Президентская программа переподготовки управленческих кадров для организаций народного хозяйства РФ, специальность: «Маркетинг».</p> <br>
+								<span class="expert">Экспертная специальность:</span> <br><br>
+								<ul class="lists">
+									<li class="list_two">16.5 Федерального агентства по техническому регулированию и метрологии Российской Федерации (Некоммерческое партнерство «Палата судебных экспертов») «Исследование строительных объектов, их отдельных фрагментов, инженерных систем, оборудования и коммуникаций с целью установления объема, качества и стоимости выполненных работ, использованных материалов и изделий» (Система добровольной сертификации методического обеспечения судебной экспертизы – РОСC RU.И597.04НЯ00).</li>
+									<li class="list_two">16.4 Федерального агентства по техническому регулированию и метрологии Российской Федерации (Некоммерческое партнерство «Палата судебных экспертов») «Исследование проектной документации, строительных объектов в целях установления их соответствия требованиям специальных правил, определение технического состояния, причин, условий, обстоятельств и механизмов разрушения строительных объектов, частичной или полной утраты ими своих функциональных, эксплуатационных, эстетических и других свойств». (Система добровольной сертификации методического обеспечения судебной экспертизы – РОСC RU.И597.04НЯ00).</li>
+									<li class="list_two">«Ценообразование и сметное нормирование» Федерального центра ценообразования в строительстве и промышленности строительных материалов.</li>
+									<li class="list_two">Эксперт по направлению деятельности 1.2. Инженерно-геологические изыскания, аттестованный на право подготовки заключений экспертизы проектной документации и (или) экспертизы результатов инженерных изысканий (номер аттестата МС-Э-84-1-4574 от 05.11.2014г) Министерство регионального развития РФ, Федеральное агентство по строительству и жилищно-коммунальному хозяйству (Госстрой). </li>
+									<li class="list_two">Эксперт по направлению деятельности 2.1.3 «Конструктивные решения», аттестованный на право подготовки заключений экспертизы проектной документации и (или) экспертизы результатов инженерных изысканий (Федеральное агентство по строительству и жилищно-коммунальному хозяйству (Госстрой).</li><br><br>
+								</ul>
+							</div>
+						</div>
+						<div class="row hidden-xs">
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+
+
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+							</div>
+							
+						<div class="row hidden-xs">
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+
+
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+							</div>
+							
+						<div class="row hidden-xs">
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+
+
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+							</div>
+							
+						<div class="row hidden-xs">
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+
+
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+							</div>
+							
+						<div class="row hidden-xs">
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+
+
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+							</div>
+							
+						<div class="row hidden-xs">
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+
+
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+							</div>
+							
+						<div class="row hidden-xs">
+							<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+							<div class="col-lg-8 col-md-8 col-sm-8"></div>
+						</div>
+						<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div><div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div><div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div><div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div><div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div><div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div><div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div><div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div><div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div><div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div><div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+					<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+					<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+					<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+					<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+					<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+					<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+					<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+					<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+					
+
+
+
+						<h2>Гарипов Альберт Шаукатович</h2>
+						
+						<div class="row">
+							<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+								<img src="assets/img/img-main/kamalov6.jpg" class="slider-pic" alt="">
+							</div>
+							<div class="col-lg-1 col-md-1 col-sm-1"></div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+									<div class="about">
+
+										<span class="red prof">Руководитель строительно-технической лаборатории:</span><br><br>
+										<p>Руководит строительной лабораторией, организовывает и проводит испытания строительных материалов и изделий. Проводит работы по разработке технических и технологических карт, методик. Осуществляет контроль качества строительно-монтажных и других видов работ. Руководит научно-технической и производственной деятельностью лаборатории. Формирует и обосновывает цели и задачи выполняемых работ, определяет значение и необходимость их проведения, пути и методы решений. Участвует в составлении необходимых технико-экономических обоснований. <br><br>
+										Тел. +7(843) 204-09-00</p>	
+										E-mail: <a class="email" href=mailto:info@sudexpertiza.org>info@sudexpertiza.org</a><br><br>
+									</div>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<p>Высшее образование и стаж работы по специальности с 1980 года. Диплом КИСИ инженера-строителя ВСГ №659077 от 21.06.1987г по специальности «Промышленно-гражданское строительство».</p>
+							</div>
+						</div>
+						
+
+
+						<h2>Архипов Алексей Юрьевич</h2>
+						
+						<div class="row">
+							<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+								<img src="assets/img/img-main/kamalov6.jpg" class="slider-pic" alt="">
+							</div>
+							<div class="col-lg-1 col-md-1 col-sm-1"></div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+									<div class="about">
+										<span class="red prof">Руководитель инженерно-технической лаборатории:</span><br><br>
+										<p>Руководит инженерной и электротехнической лабораторией. Организует проведение испытаний и исследований инженерных систем с целью обеспечения лабораторного определения соответствия качества систем - действующим стандартам, техническим условиям и требованиям безопасности. <br><br>
+										Тел. +7(843) 204-09-00</p>	
+										E-mail: <a class="email" href=mailto:info@sudexpertiza.org>info@sudexpertiza.org</a><br><br>
+									</div>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<p>Образование – высшее, КГЭУ (2005г) - специальность – диплом инженера по специальности «Электроснабжение (промышленных предприятий и городов)», ВСВ №1427899 от 24.06.2005г; Свидетельство №628 от 18.10.2003 г. повышение квалификации «Подготовка специалистов электролабораторий по испытаниям и измерениям в электроустановках до 220 кВ»; допущен к работе в электроустановках в качестве административно-технического персонала по V группе электробезопасности (в установках напряжением выше 1000 В).</p>
+							</div>
+						</div>
+						
+						
+						
+						<h2>Богданова Линара Равильевна</h2>
+						<div class="row">
+							<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+								<img src="assets/img/img-main/kamalov7.jpg" class="slider-pic" alt="">
+							</div>
+							<div class="col-lg-1 col-md-1 col-sm-1"></div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+									
+									<span class="red prof">Главный специалист</span><br><br>
+									
+									<p>Тел. +7(843) 204-09-00</p>
+									E-mail: <a <a class="email" href=mailto:info@sudexpertiza.org>info@sudexpertiza.org</a><br><br><br><br>
+									
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<p>Образование – высшее, КГАСУ, 2009 г., специальность -инженер по специальности «Промышленное и гражданское строительство ВСГ №4263008 от 29 июня 2009г
+								<br><br> Стаж работы  с 2009 года;<br><br></p>
+								<span class="expert">Экспертная специальность:</span> <br><br>
+								<ul class="lists">
+									<li class="list_two">16.5 Федерального агентства по техническому регулированию и метрологии Российской Федерации (Некоммерческое партнерство «Палата судебных экспертов»)  «Исследование домовладения с целью установления возможности их реального раздела между собственниками в соответствии с условиями, заданными судом; разработка вариантов указанного раздела».</li><br><br>
+								</ul><br><br>
+							</div>
+						</div>
+							<div class="row hidden-xs">
+						
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+
+
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+					</div>
+					
+						<div class="row hidden-xs">
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+
+
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+						</div>
+								
+						<div class="row hidden-xs">
+									
+								<div class="col-lg-4 col-md-4 col-sm-4">
+									<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+										<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+											<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+										</a>
+									
+
+										<div class="fancies">
+											<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+										</div>
+										<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+										<div class="clearfix"></div>
+								</div>
+									<div class="col-lg-4 col-md-4 col-sm-4"></div>
+									
+								
+						</div>
+						<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+					<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+					<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+					<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+					<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+					<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+					<div class="row hidden-lg hidden-md hidden-sm">
+						<div class="col-xs-12">
+							<!-- <embed class="pdfobject" src="assets/img/img-main/" type="application/pdf" style="overflow: auto; height: 1000px; width: 700px;" internalinstanceid="7"> -->
+						<a href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">
+							<img src="assets/img/img-main/sert1.jpg"  class="img_sert" alt="">
+						</a>
+						
+							<a  class="fancy_link" href="content/sert/zem/20121124_121250.jpg" data-fancybox data-caption="">20121124_121250</a><br>
+						<a  class="fancy_link1" href="content/sert/zem/20121124_121250.jpg" download>скачать</a>
+						</div>
+						
+					</div>
+
+
+					
+					
+					<h2>Минаков Андрей Дмитриевич</h2>
+						
+						<div class="row">
+							<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+								<img src="assets/img/img-main/kamalov8.jpg" class="slider-pic" alt="">
+							</div>
+							<div class="col-lg-1 col-md-1 col-sm-1"></div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+									<div class="about">
+										<span class="red prof">Ведущий специалист</span><br><br>
+										<p>Тел. +7(843) 204-09-00 <br></p>	
+										E-mail: <a class="email" href=mailto:info@sudexpertiza.org>info@sudexpertiza.org</a><br>
+									</div>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="minakov">
+									<p>Образование высшее, стаж работы по специальности с 2015 года. Диплом КГАСУ бакалавра №101624 1136098 (регистрационный номер 13316) от 07.07.2015г по направлению 08.03.01 «Строительство».</p>
+								</div>
+							</div>
+						</div>
+						</div>
+						
+
+					
+				
+
+
+				
+						
+
+
+
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+							
+							<div class="docs docs-1">
+							<div class="head_row">
+								<div class="row">
+								
+									<div class="col-sm-6">
+										
+										<a href="docs.php" class="smp_link"><h2 class="special  small_font">Документы <span class="red red_link hidden-lg hidden-md hidden-sm">&rarr;</span></h2></a>
+									</div>
+									<div class="col-sm-6">
+										<a href="docs.php" class="spec_link sm_link hidden-lg hidden-md hidden-xs">Смотреть все документы</a>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-4">
+									<div class="doc_one">
+										<img src="assets/img/img-main/doc1.png" alt="">
+										<a href="#" class="low_doc">Свидетельство СРО <br>
+										<span class="tail">СРО-П-183-06052013</span></a>
+									</div>
+								</div>
+								<div class="col-lg-12  col-md-12 col-sm-4">
+									<div class="doc_two">
+										<img src="assets/img/img-main/doc2.png" alt="">
+										<a href="#" class="low_doc">Приложение к Свидетельству<br>
+										<span class="tail">0258.02-2016-1655326213- </span><br>
+										<span class="tail">П-183 </span></a>
+									</div>
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-4">
+									<div class="doc_three">
+										<img src="assets/img/img-main/doc3.png" alt="">
+										<a href="#" class="low_doc">Федеральный закон<br>
+										<span class="tail">№ 306504-6 </span></a>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-12">
+									<div class="doc-four">
+										<img src="assets/img/img-main/doc3.png" alt="">
+										<a href="#" class="low_doc">Федеральный закон <br>
+										<span class="tail">от 31.05.2001 №73-ФЗ</span></a>
+									</div>
+								</div>
+							</div>
+						</div><!--  docs -->
+
+
+						<a href="docs.php" class="spec_link right_link  hidden-xs hidden-sm">Смотреть все документы</a>
+							
+							<div class="small_contacts">
+							
+
+								<h2 class="small_font">Контакты</h2>
+								<div class="row">
+									<div class="contacts_md">
+										<div class="col-lg-12 col-md-12 col-sm-4 col-xs-12">
+											<div class="email">
+												<p class="footer_text"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="#" class="footer_mail">info@sudexpertiza.org</a></p>
+											</div>
+										</div>
+										<div class="col-lg-12 col-md-12 col-sm-4 col-xs-12">
+											<div class="mobilephone">
+												<p class="footer_text"><i class="fa fa-mobile" aria-hidden="true"></i> +7(843) <span class="bold_foteer">204-09-00</span></p>
+												<p class="footer_text"><i class="fa fa-fax" aria-hidden="true"></i>+7(843) <span class="bold_footer">204-11-22</span> </p>
+											</div>
+										</div>
+										<div class="col-lg-12 col-md-12 col-sm-4 col-xs-12">
+											<div class="mobile_fax">
+												<p class="footer_text"><i class="fa fa-map-marker" aria-hidden="true"></i> Республика Татарстан, г. Казань,<br>  &nbsp;  &nbsp;  &nbsp; ул. Даурская, д.44Г</p>
+											</div>
+										</div>
+									</div>
+								</div>
+						</div>
+						</div> <!-- col-lg-3 col-md-3 col-sm-3 col-xs-12 -->
+						
+				
+
+					
+			</div> <!-- row -->
+		</div> <!-- container -->
+	</div> <!-- main -->
+
+
+
+
+
+
+
+	<? include 'footer.php';?>
+
+	<script src="assets/js/jquery-3.2.0.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/slick/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+	<script src="assets/js/script.js"></script>
+
+	
+</body>
+</html>
