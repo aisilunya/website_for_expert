@@ -24,7 +24,9 @@ body.overflow {
 body {
 
 }
-
+.logotype {
+	height: 100px;
+} 
 .logotype .mobyle-menu {
 	visibility: hidden;
 	position: fixed;
@@ -209,7 +211,13 @@ body {
 
 .logotype .search_site {
 	position: relative;
+	height: 30px;
 }
+.logotype #title-search {
+	
+	height: 30px;
+}
+
 .search-page {
 	margin-top: 50px;
 }
@@ -291,6 +299,7 @@ body {
 	margin-bottom: 0;
 	background-color: #244360;
 	padding: 13px 0;
+	margin-top: 0px;
 }
 
 .nav li {
@@ -340,7 +349,7 @@ body {
 	margin-bottom: 20px;
 	border-bottom: 1px solid #c6cace;
 	position: relative;
-	padding-top: 15px;
+	padding-top: 10px;
 	line-height: 30px;
 }
 
@@ -354,10 +363,13 @@ body {
 	background-color: #e94259;
 }
 
+
 .main .small_font {
 	font-size: 18px;
 	margin-top: 10px;
 }
+
+
 
 .main .specialists {
 	border-bottom: none;
@@ -365,6 +377,15 @@ body {
 	line-height: 10px;
 	padding: 0px 0;
 	padding-top: 10px;
+}
+.main .specialists::after {
+	content: "";
+	width: 40px;
+	height: 1px;
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	background: none !important;
 }
 
 .main .special {
@@ -379,7 +400,9 @@ body {
 .main .special {
 	text-decoration: none;
 }
-
+.main .document_page 	
+	margin-top: 16px;
+}
 .main .specialists::after {
 	content: "";
 	width: 0px;
@@ -783,7 +806,7 @@ body {
 }
 
 .main .exp {
-	margin-top: 30px;
+	margin-top: 10px;
 	border-top: 1px solid #e9eaea;
 }
 
@@ -801,14 +824,14 @@ body {
 
 .main .exp ul li::before {
 	content: '';
-	color: #b5c2cb;
+	color: #1f4465;
 	position: absolute;
 	left: 0;
 	top: 10px;
 	margin-left: -30px;
 	width: 10px;
 	height: 1px;
-	background: #b5c2cb;
+	background: #1f4465;
 }
 
 .main .symbol {
@@ -1231,7 +1254,16 @@ body {
 	bottom: -2px;
 	background-color: #e94259;
 }
-
+.main .nav-tabs li a {
+	text-align: center;
+	padding: 10px 50px;
+}
+@media only screen and (max-width: 767px) {
+  .main .nav-tabs li a {
+	
+	padding: 10px 15px;
+}
+}
 .main .nav-tabs li.active {
 	border: 1px solid white;
 	border-bottom: 2px solid red;
@@ -1367,6 +1399,10 @@ body {
 	bottom: 30px;
 	font-family: 'PT Sans', sans-serif;
 	text-align: left;
+	padding: 0px 5px;
+	border: 1px solid #337ab7;
+	box-sizing: border-box;
+
 }
 
 .main a {
@@ -1464,7 +1500,19 @@ body {
 	margin-left: 2px;
 	vertical-align: top;
 }
+.main .small_contacts .bottom_text {
+	margin-top: -15px;
+	color: #333333;
+	text-decoration: none;
+	cursor: pointer;
+}
+.main .small_contacts .city:hover {
+	
+	text-decoration: underline;
+	
 
+
+}
 .main .small_contacts .fa-envelope-o {
 	padding-right: 10px;
 	margin-left: 2px;
@@ -1659,12 +1707,30 @@ body {
 	display: block;
 	margin-top: 0px;
 }
+.footer .footer_contacts .mobyle_fax {
+	margin-top: -10px;
+}
 .footer .footer_contacts a:hover {
 	text-decoration: none;
 }
 .footer .location {
 	margin-top: 10px;
 }
+.footer .location .bottom_text {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+
+
+}
+.footer .location .bottom_text:hover {
+	
+	text-decoration: underline;
+	
+
+
+}
+
 
 .footer .location .fa-copyright {
 	padding-right: 5px;
@@ -1692,12 +1758,13 @@ body {
 	color: white;
 	padding: 0px 50px;
 	padding-left: 0;
-	padding-bottom: 5px;
+	padding-bottom: 3px;
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
 }
 .footer .footer_links ul li a:hover {
 	background-color: #333333;
+	text-decoration: underline;
 }
 .footer .footer_links ul li a:focus {
 	background-color: #333333;
@@ -1827,6 +1894,7 @@ body {
 		color: white;
 		border-right: none;
 	}
+	
 	.navbar-inverse .navbar-nav li a .selectmenu {
 		color: #244360;
 	}
@@ -1896,20 +1964,22 @@ body {
 
 	.main .nav-tabs a {
 		white-space: normal;
+		padding: 10px 50px;
 	}
 
 	.main .fancy_link {
 
-		text-align: right;
-		margin-left: 0px;
+		
+		margin-left: 100px;
 		margin-top: 15px;
 	}
 
 	.main .fancy_link1 {
-		float: right;
+		float: none;
 		text-align: right;
-		margin-left: 0px;
+		margin-left: 20px;
 		margin-top: 0;
+		position: static;
 	}
 
 	.main .lows {
@@ -2072,7 +2142,10 @@ body {
 		display: none;
 		
 	}
-	.modern-page-previous, .modern-page-next, .modern-page-current {
+	.modern-page-current, .modern-page-first, .last {
+		display: inline-block !important;
+	}
+	.modern-page-previous, .modern-page-next {
 		display: inline-block !important;
 	}
 
@@ -2133,4 +2206,32 @@ body {
 		width: 100%;
 	}
 }
+.modal {
+  text-align: center;
+}
 
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.modal-header {
+	border-bottom: none;
+}
+.modal-body {
+	padding-top: 0;
+}
+@media screen and (max-width: 768px) {
+.modal-content {
+	width: 310px;
+}
+}

@@ -21,7 +21,7 @@ $this->setFrameMode(true);
 			<div class="row">
 
 				<div class="col-sm-6">
-					<h2 class="special  small_font">Документы <span class="red red_link hidden-lg hidden-md hidden-sm">&rarr;</span></h2>
+					<h2 class="special  small_font document_page">Документы <span class="red red_link hidden-lg hidden-md hidden-sm">&rarr;</span></h2>
 				</div>
 
 			</div>

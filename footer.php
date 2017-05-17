@@ -183,74 +183,88 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 
 			<? if(($APPLICATION->GetCurDir()!="/spetsialisty/") and ($APPLICATION->GetCurDir()!="/search/")):?>
 
+			
+			
+				<?
+				CModule::IncludeModule('iblock');
+				$arFilter = Array("IBLOCK_ID"=>IntVal(3), "ID"=>IntVal(8), "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y");
+				$arSecondfilter = Array("IBLOCK_ID"=>IntVal(3), "!ID"=>IntVal(8),  "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y");
+				$res = CIBlockElement::GetList(Array(), $arFilter, false, false, Array());
+				$resSecond = CIBlockElement::GetList(Array("RAND" => "ASC"), $arSecondfilter, false, false,   Array());
+				if ($ob = $res->GetNextElement())
+				{
+				 $arFields = $ob->GetFields();
+				 $arProps = $ob->GetProperties();
+				 ?>
+				<div class="main">
+					<div class="photos hidden-sm hidden-xs">
+						<h2 class="special_team small_font">Команда специалистов</h2>
+				 <div class="second_box">
+			
+					<div class="slider-text">
 
-			<?$APPLICATION->IncludeComponent(
-				"bitrix:news.list", 
-				"spec-right", 
-				array(
-					"ACTIVE_DATE_FORMAT" => "d.m.Y",
-					"ADD_SECTIONS_CHAIN" => "N",
-					"AJAX_MODE" => "N",
-					"AJAX_OPTION_ADDITIONAL" => "",
-					"AJAX_OPTION_HISTORY" => "N",
-					"AJAX_OPTION_JUMP" => "N",
-					"AJAX_OPTION_STYLE" => "Y",
-					"CACHE_FILTER" => "N",
-					"CACHE_GROUPS" => "Y",
-					"CACHE_TIME" => "36000000",
-					"CACHE_TYPE" => "A",
-					"CHECK_DATES" => "Y",
-					"DETAIL_URL" => "",
-					"DISPLAY_BOTTOM_PAGER" => "Y",
-					"DISPLAY_DATE" => "Y",
-					"DISPLAY_NAME" => "Y",
-					"DISPLAY_PICTURE" => "Y",
-					"DISPLAY_PREVIEW_TEXT" => "Y",
-					"DISPLAY_TOP_PAGER" => "N",
-					"FIELD_CODE" => array(
-						0 => "DETAIL_TEXT",
-						1 => "",
-						),
-					"FILTER_NAME" => "",
-					"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-					"IBLOCK_ID" => "3",
-					"IBLOCK_TYPE" => "-",
-					"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
-					"INCLUDE_SUBSECTIONS" => "Y",
-					"MESSAGE_404" => "",
-					"NEWS_COUNT" => "2",
-					"PAGER_BASE_LINK_ENABLE" => "N",
-					"PAGER_DESC_NUMBERING" => "N",
-					"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
-					"PAGER_SHOW_ALL" => "N",
-					"PAGER_SHOW_ALWAYS" => "N",
-					"PAGER_TEMPLATE" => ".default",
-					"PAGER_TITLE" => "Новости",
-					"PARENT_SECTION" => "",
-					"PARENT_SECTION_CODE" => "",
-					"PREVIEW_TRUNCATE_LEN" => "",
-					"PROPERTY_CODE" => array(
-						0 => "dolg",
-						1 => "email",
-						2 => "phone",
-						3 => "",
-						),
-					"SET_BROWSER_TITLE" => "N",
-					"SET_LAST_MODIFIED" => "N",
-					"SET_META_DESCRIPTION" => "N",
-					"SET_META_KEYWORDS" => "N",
-					"SET_STATUS_404" => "N",
-					"SET_TITLE" => "N",
-					"SHOW_404" => "N",
-					"SORT_BY1" => "ACTIVE_FROM",
-					"SORT_BY2" => "SORT",
-					"SORT_ORDER1" => "DESC",
-					"SORT_ORDER2" => "ASC",
-					"STRICT_SECTION_CHECK" => "N",
-					"COMPONENT_TEMPLATE" => "spec-right"
-					),
-				false
-				);?>
+						<?
+					     $arFileTmp = CFile::ResizeImageGet(
+					               $arFields["PREVIEW_PICTURE"],
+					               array("width" => 150, "height" => 144),
+					               BX_RESIZE_IMAGE_EXACT,
+					               true
+					           );
+					    ?>
+						<img src="<?=$arFileTmp["src"]?>" class="slider-pic" alt="">
+						<h3 class="small_name"><?=$arFields["NAME"]?></h3>
+						<span class="red"><?=$arProps['dolg']["VALUE"]?></span><br><br>
+						Тел. <?=$arProps['phone']["VALUE"]?><br>
+						<?if (!empty($arProps['mobile']["VALUE"])):?>
+							<?=$arProps['mobile']["VALUE"]?><br>
+						<?endif?>
+						E-mail: <a href="mailto:info@sudexpertiza.org"><?=$arProps['email']["VALUE"]?></a>
+					</div>
+
+				</div> <!-- second_box -->
+				</div>
+				</div>
+				
+				 <?
+				 // print_r($arFields);
+				}
+				while ($obSecond = $resSecond->GetNextElement())
+				{
+				 $arFieldssecond = $obSecond->GetFields();
+				 $arPropssecond = $obSecond->GetProperties();
+				 
+				}
+				?> 
+				<div class="main">
+					<div class="photos hidden-sm hidden-xs">
+				<div class="second_box">
+			
+					<div class="slider-text">
+
+						<?
+					     $arFileTmp = CFile::ResizeImageGet(
+					               $arFieldssecond["PREVIEW_PICTURE"],
+					               array("width" => 150, "height" => 144),
+					               BX_RESIZE_IMAGE_EXACT,
+					               true
+					           );
+					    ?>
+						<img src="<?=$arFileTmp["src"]?>" class="slider-pic" alt="">
+						<h3 class="small_name"><?=$arFieldssecond["NAME"]?></h3>
+						<span class="red"><?=$arPropssecond['dolg']["VALUE"]?></span><br><br>
+						Тел. <?=$arPropssecond['phone']["VALUE"]?><br>
+						<?if (!empty($arPropssecond['mobile']["VALUE"])):?>
+							<?=$arPropssecond['mobile']["VALUE"]?><br>
+						<?endif?>
+						E-mail: <a href="mailto:info@sudexpertiza.org"><?=$arPropssecond['email']["VALUE"]?></a>
+					</div>
+
+				</div> <!-- second_box -->
+				</div>
+				</div>
+
+				
+
 				<div class="main">
 					<a href="/spetsialisty/" class="spec_link right_link  hidden-sm hidden-xs">Смотреть всех специалистов</a>
 				</div>
@@ -419,8 +433,16 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 														<div class="col-xs-12">
 															<div class="location hidden-lg hidden-md hidden-sm">
 																<div class="location hidden-lg hidden-md hidden-sm">
-																	<p class="footer_text"><i class="fa fa-copyright" aria-hidden="true"></i> 2017,  АНО «Судебно-экспертный центр «СТРОЙЭКСПЕРТИЗА».</p>
-																	<p class="footer_text"><i class="fa fa-map-marker" aria-hidden="true"></i> Республика Татарстан, г. Казань, ул. Даурская, д.44Г</p>
+																	<?$APPLICATION->IncludeComponent(
+																		"bitrix:main.include",
+																		"company-mail",
+																		Array(
+																			"AREA_FILE_SHOW" => "file",
+																			"AREA_FILE_SUFFIX" => "inc",
+																			"EDIT_TEMPLATE" => "",
+																			"PATH" => "/include/location.php"
+																			)
+																			);?>	
 																</div> <!-- location -->
 															</div> <!-- location -->
 														</div> <!-- col-xs-12 -->
@@ -428,5 +450,37 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 													</div> <!-- row -->
 												</div> <!-- container -->
 											</div> 
+												<div class="modal fade callback-form" id="callback-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      
+												      <div class="modal-header text-center">
+												        <button type="button" class="close close-1" data-dismiss="modal" aria-label="Close"><span class="close-1" aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span></button>
+												        
+												      </div>
+												      <div class="modal-body text-center">
+												        	
+															<?$APPLICATION->IncludeComponent(
+																"bitrix:map.yandex.view",
+																".default",
+																Array(
+																	"COMPONENT_TEMPLATE" => ".default",
+																	"CONTROLS" => array(0=>"ZOOM",1=>"MINIMAP",2=>"TYPECONTROL",3=>"SCALELINE",),
+																	"INIT_MAP_TYPE" => "MAP",
+																	"MAP_DATA" => "a:4:{s:10:\"yandex_lat\";d:55.76495478695843;s:10:\"yandex_lon\";d:49.18676898243038;s:12:\"yandex_scale\";i:15;s:10:\"PLACEMARKS\";a:2:{i:0;a:3:{s:3:\"LON\";d:49.187621886371;s:3:\"LAT\";d:55.765965299188;s:4:\"TEXT\";s:0:\"\";}i:1;a:3:{s:3:\"LON\";d:49.187621886371;s:3:\"LAT\";d:55.765965299188;s:4:\"TEXT\";s:30:\"СтройЭкспертиза\";}}}",
+																	"MAP_HEIGHT" => "330",
+																	"MAP_ID" => "",
+																	"MAP_WIDTH" => "100%",
+																	"OPTIONS" => array(0=>"ENABLE_SCROLL_ZOOM",1=>"ENABLE_DBLCLICK_ZOOM",2=>"ENABLE_DRAGGING",)
+																)
+															);?><br>	
+														</div>
+												
+													
+											      </div>
+											      
+											   </div>
+										    
+										  </div>
 										</body>
 										</html>

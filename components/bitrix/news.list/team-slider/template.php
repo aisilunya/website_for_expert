@@ -34,7 +34,10 @@ $this->setFrameMode(true);
 			<div class="slider-text">
 				<h3><?=$arItem["NAME"]?></h3>
 				<span class="red"><?=$arItem["PROPERTIES"]['dolg']["VALUE"]?></span>
-				<p class="tel">Тел. <?=$arItem["PROPERTIES"]['phone']["VALUE"]?></p>	
+				<p class="tel">Тел. <?=$arItem["PROPERTIES"]['phone']["VALUE"]?></p>
+				<?if (!empty($arItem["PROPERTIES"]['fax']["VALUE"])):?>
+					<p>Факс <?=$arItem["PROPERTIES"]['fax']["VALUE"]?><br></p>
+				<?endif?>	
 				E-mail: <a href="mailto:info@sudexpertiza.org"><?=$arItem["PROPERTIES"]['email']["VALUE"]?></a>
 			</div>
 			</div> <!-- second_box -->
